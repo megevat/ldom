@@ -82,7 +82,8 @@ input[type="text"] {
   width: 100%;
   background: url(../img/header.jpg) no-repeat top center;
   background-size: cover;
-  padding-top: 22px; }
+  padding-top: 22px;
+  text-align: center; }
   .header nav {
     margin-top: 15px; }
     .header nav ul li {
@@ -146,5 +147,22 @@ input[type="text"] {
     margin-top: 25px;
     color: #fff;
     text-align: center; }
+  .header .adres_wrap {
+    display: inline-block;
+    margin-top: 65px; }
+    .header .adres_wrap .icon_wrap {
+      margin-right: 21px;
+      display: inline-block; }
+      .header .adres_wrap .icon_wrap .fa-map-marker {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 47px; }
+    .header .adres_wrap .descr_adres_wrap {
+      text-align: left;
+      width: 300px;
+      display: inline-block;
+      color: white;
+      font-family: "HelveticaNeueCyr-Roman", sans-serif;
+      font-size: 16px;
+      line-height: 24px; }
 
 /*# sourceMappingURL=style.css.map */

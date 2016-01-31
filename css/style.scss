@@ -1,0 +1,199 @@
+﻿$red: #c8102e;
+$text-color: #3C4761;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1,
+h1.white,
+h2,
+h4,
+h5,
+h3, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+body {
+    
+}
+.clear {
+    clear: both;
+}
+.button-1{
+    border: 2px solid #e57513; 
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; 
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+     
+    display: inline-block;
+    padding: 8px 15px;
+    color: #e57614;
+    font-family: "HelveticaNeueCyr-Bold";
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.button-1:hover{
+    background: #d16200;
+    color: #fff;
+}
+input[type="text"]{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; 
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    background-color: #fff; 
+}
+
+
+.header{
+    color: #000;
+    font-family: "HelveticaNeueCyr-Roman";
+    min-height: 675px;
+    width: 100%;
+    background: url(../img/header.jpg) no-repeat top center;
+    background-size: cover;
+    padding-top: 22px;
+    nav{
+        margin-top: 15px;
+        ul{
+            li{
+                display: block;
+                float: left;
+                margin-right: 52px;
+                a{
+                    display: inline-block;
+                    text-transform: uppercase;
+                    
+                    font-size: 14px;
+                    color: #fff;
+
+                }
+                span{
+                    display: inline-block;
+                    height: 16px;
+                    padding: 2px 5px;
+                    color: #fff;
+                   
+                    background: #e57614;
+                    border-radius: 5px;
+                    font-size: 12px;
+                    margin-left: 8px;
+                    margin-top: -2px;
+                    text-align: center;
+                    position: relative;
+
+                }
+                span:before{
+                    position: absolute;
+                    content: url(../img/orange_arr.png);
+                    margin-left: -8px;
+                    margin-top: -1px;
+                }
+            }
+            .child{
+                a:after{
+                    position: absolute;
+                    content: url(../img/menu_arr.png);
+                    margin-top: -2px;
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+    .header-right-box{
+        text-align: center;
+    }
+    .contact-box{
+        color: #fff;
+        text-align: right;
+        .tel{
+            display: block;
+            font-family: "HelveticaNeueCyr-Bold";
+            font-size: 26px;
+            margin-top: 5px;
+        }
+        .regim{
+            display: block;
+            font-family: "HelveticaNeueCyr-Medium";
+            font-size: 12px;
+            text-transform: uppercase;
+
+        }
+    }
+    .button-1{
+        margin-top: 15px;
+       
+    }
+    .text{
+        font-family: "HelveticaNeueCyr-Medium";
+        font-size: 40.5px;
+        margin-top: 45px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .sub-text{
+        font-family: "HelveticaNeueCyr-Light";
+        font-size: 29px;
+        margin-top: 25px;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //padding: 0px;
+    //margin: 0px;
+   //outline: 10px solid red;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    //padding: 0px;
+    //margin: 0px;    
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+

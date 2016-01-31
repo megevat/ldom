@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1,
+h1.white,
+h2,
+h4,
+h5,
+h3, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+.clear {
+  clear: both; }
+
+.button-1 {
+  border: 2px solid #e57513;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: inline-block;
+  padding: 8px 15px;
+  color: #e57614;
+  font-family: "HelveticaNeueCyr-Bold";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px; }
+
+.button-1:hover {
+  background: #d16200;
+  color: #fff; }
+
+input[type="text"] {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #fff; }
+
+.header {
+  color: #000;
+  font-family: "HelveticaNeueCyr-Roman";
+  min-height: 675px;
+  width: 100%;
+  background: url(../img/header.jpg) no-repeat top center;
+  background-size: cover;
+  padding-top: 22px; }
+  .header nav {
+    margin-top: 15px; }
+    .header nav ul li {
+      display: block;
+      float: left;
+      margin-right: 52px; }
+      .header nav ul li a {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #fff; }
+      .header nav ul li span {
+        display: inline-block;
+        height: 16px;
+        padding: 2px 5px;
+        color: #fff;
+        background: #e57614;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-left: 8px;
+        margin-top: -2px;
+        text-align: center;
+        position: relative; }
+      .header nav ul li span:before {
+        position: absolute;
+        content: url(../img/orange_arr.png);
+        margin-left: -8px;
+        margin-top: -1px; }
+    .header nav ul .child a:after {
+      position: absolute;
+      content: url(../img/menu_arr.png);
+      margin-top: -2px;
+      margin-left: 8px; }
+  .header .header-right-box {
+    text-align: center; }
+  .header .contact-box {
+    color: #fff;
+    text-align: right; }
+    .header .contact-box .tel {
+      display: block;
+      font-family: "HelveticaNeueCyr-Bold";
+      font-size: 26px;
+      margin-top: 5px; }
+    .header .contact-box .regim {
+      display: block;
+      font-family: "HelveticaNeueCyr-Medium";
+      font-size: 12px;
+      text-transform: uppercase; }
+  .header .button-1 {
+    margin-top: 15px; }
+  .header .text {
+    font-family: "HelveticaNeueCyr-Medium";
+    font-size: 40.5px;
+    margin-top: 45px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase; }
+  .header .sub-text {
+    font-family: "HelveticaNeueCyr-Light";
+    font-size: 29px;
+    margin-top: 25px;
+    color: #fff;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -232,6 +232,28 @@ input[type="text"] {
         text-transform: uppercase;
         padding: 10px 30px; }
 
+.sect {
+  padding-top: 60px;
+  text-align: center; }
+
+.title_wrap {
+  font-family: "HelveticaNeueCyr-Light", sans-serif; }
+  .title_wrap h2 {
+    color: #1681a9;
+    font-size: 42px;
+    text-transform: uppercase; }
+  .title_wrap p {
+    color: #3a3a3a;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    padding: 0 125px; }
+  .title_wrap strong {
+    font-weight: 600; }
+
+.button_wrap_a {
+  display: inline-block; }
+
 .stepper .stepper-step {
   width: 27px;
   height: 42%;

@@ -16,6 +16,8 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/tcal.css" />
+	<link rel="stylesheet" href="css/stepper.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/media.css" />
@@ -32,6 +34,8 @@
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/tcal/tcal.js"></script>
+	<script src="libs/stepper/jquery.fs.stepper.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 	
@@ -74,6 +78,34 @@
 						<div class="descr_adres_wrap">
 							<p>Крым, Большая Ялта, пгт. Береговое (Кастрополь), ул. Кипарисная, 89</p>
 						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12">
+					<div class="top_form_wrap">
+						<h3>Узнать цены на ваши даты</h3>
+						<form action="#">
+							<div class="input_wrap">
+								<label for="zaezd">Дата заезда</label>
+								<input type="date" id="zaezd" name="zaezd" class="tcal" value="01.07.2016">
+							</div>
+							<div class="input_wrap">
+								<label for="zaezd">Дата выезда</label>
+								<input type="date" id="viezd" name="viezd" class="tcal" value="10.07.2016">
+							</div>
+							<div class="input_wrap_number">
+								<label for="grand">Взрослых</label>
+								<input type="number" id="grand" name="grand_col" value="2">
+							</div>
+							<div class="input_wrap_number">
+								<label for="child">Детей</label>
+								<input type="number" id="child" name="child_col" value="0">
+							</div>
+							<div class="button_wrap">
+								<button class="button_form">узнать цены</button>
+							</div>
+						</form>
+
 					</div>
 				</div>
 				

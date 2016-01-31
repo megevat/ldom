@@ -164,5 +164,86 @@ input[type="text"] {
       font-family: "HelveticaNeueCyr-Roman", sans-serif;
       font-size: 16px;
       line-height: 24px; }
+  .header .top_form_wrap {
+    display: inline-block;
+    width: 856px;
+    font-family: "HelveticaNeueCyr-Roman", sans-serif;
+    height: 163px;
+    margin-top: 70px;
+    background-color: rgba(22, 129, 169, 0.7);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+    .header .top_form_wrap h3 {
+      color: white;
+      font-family: "HelveticaNeueCyr-Roman", sans-serif;
+      font-size: 27px;
+      font-weight: 400;
+      margin-top: 23px;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+    .header .top_form_wrap .input_wrap {
+      display: inline-block;
+      text-align: left;
+      float: left;
+      margin-left: 35px; }
+      .header .top_form_wrap .input_wrap:first-child {
+        margin-left: 50px; }
+      .header .top_form_wrap .input_wrap input {
+        display: block;
+        width: 170px;
+        background-color: white;
+        border: 2px solid #d8d8d8;
+        border-radius: 6px;
+        padding: 6px 30px 6px 12px;
+        color: #3a3a3a;
+        font-size: 14px;
+        margin-top: 10px; }
+      .header .top_form_wrap .input_wrap label {
+        color: white;
+        font-size: 13px; }
+    .header .top_form_wrap .input_wrap_number {
+      width: 64px;
+      display: inline-block;
+      text-align: left;
+      float: left;
+      margin-left: 35px; }
+      .header .top_form_wrap .input_wrap_number label {
+        color: white;
+        font-size: 13px; }
+      .header .top_form_wrap .input_wrap_number input {
+        background-color: white;
+        border: 2px solid #d8d8d8;
+        border-radius: 6px;
+        color: #3a3a3a;
+        font-size: 14px;
+        margin-top: 10px;
+        padding: 6px 0 6px 10px; }
+    .header .top_form_wrap .button_wrap {
+      float: left;
+      margin-top: 27px;
+      margin-left: 35px; }
+      .header .top_form_wrap .button_wrap button {
+        background-color: #e57614;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 10px 30px; }
+
+.stepper .stepper-step {
+  width: 27px;
+  height: 42%;
+  background: #fff url(../img/icon-arr.png) no-repeat;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  right: 3px;
+  text-indent: -99999px;
+  z-index: 50;
+  border: none;
+  top: 12px;
+  margin-top: 13px; }
 
 /*# sourceMappingURL=style.css.map */

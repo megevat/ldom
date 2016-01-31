@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
+  $("input[type='number']").stepper();
 
+  
   $('a[name=modal-thanks]').click(function(e) {
     e.preventDefault();
     var id = $(this).attr('href');
@@ -14,7 +16,7 @@ $(document).ready(function() {
     $(id).css('top',  posTop+150);
     $(id).css('left', winW/2-$(id).width()/2);
     $(id).fadeIn(500); 
-  
+
   });
   $('a[name=modal-otzyv]').click(function(e) {
     e.preventDefault();
@@ -30,11 +32,11 @@ $(document).ready(function() {
     $(id).css('left', winW/2-$(id).width()/2);
     $('#otzyv-content').html($(this).find('.otzyv-content').html());
     $(id).fadeIn(500); 
-  
+
   });
   $('.callback').click(function(e) {
     $('#otzyv-content').html($(this).parent().find('.otzyv-content').html());
- 
+
   });
   $('.window2 .close').click(function (e) {
     e.preventDefault();
@@ -46,16 +48,16 @@ $(document).ready(function() {
   }); 
 
   $('#mask').click(function () {
-      $(this).hide();
-      $('.window2').hide();
-      $('.ocenka').hide();
+    $(this).hide();
+    $('.window2').hide();
+    $('.ocenka').hide();
 
   }); 
 
   $("#headerform_submit").click(function () {
-      var empty = true;
+    var empty = true;
     $('.headerform  input[name="tel"]').each(function(o){
-        if ($(this).val() == ""){empty = false;}
+      if ($(this).val() == ""){empty = false;}
     });
 
     if (empty == false){
@@ -78,9 +80,9 @@ $(document).ready(function() {
   });
 
   $("#page5-form_submit").click(function () {
-      var empty = true;
+    var empty = true;
     $('.page5-form  input[name="tel"]').each(function(o){
-        if ($(this).val() == ""){empty = false;}
+      if ($(this).val() == ""){empty = false;}
     });
 
     if (empty == false){
@@ -106,7 +108,7 @@ $(document).ready(function() {
   $("#any-questions_form").click(function () {
     var empty = true;
     $('.any-questions  input[name="email"]').each(function(o){
-        if ($(this).val() == ""){empty = false;}
+      if ($(this).val() == ""){empty = false;}
     });
 
     if (empty == false){
@@ -132,7 +134,7 @@ $(document).ready(function() {
 
     var empty = true;
     $('.page3_form  input[name="tel"]').each(function(o){
-        if ($(this).val() == ""){empty = false;}
+      if ($(this).val() == ""){empty = false;}
     });
 
     if (empty == false){
@@ -163,7 +165,7 @@ $(document).ready(function() {
 
     var empty = true;
     $('.ocenka_form  input[name="tel"]').each(function(o){
-        if ($(this).val() == ""){empty = false;}
+      if ($(this).val() == ""){empty = false;}
     });
 
     if (empty == false){
@@ -190,13 +192,13 @@ $(document).ready(function() {
     return false;
   });
   
- 
+
 
   $("#zvonok_form_submit").click(function () {
 
     var empty = true;
     $('.zvonok_form  input[name="tel"]').each(function(o){
-        if ($(this).val() == ""){empty = false;}
+      if ($(this).val() == ""){empty = false;}
     });
 
     if (empty == false){
@@ -217,7 +219,7 @@ $(document).ready(function() {
     
     return false;
   });
- 
+
   $(".phone").mask("+7 (999) 999-9999?");
 
 
@@ -225,11 +227,11 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-    $('a[href^="#"]').click(function(){ 
-      var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
-      if($element.length == 1) { 
-         $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
-      }     
-      return false;
-    });
+  $('a[href^="#"]').click(function(){ 
+    var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
+    if($element.length == 1) { 
+     $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
+   }     
+   return false;
+ });
 });
